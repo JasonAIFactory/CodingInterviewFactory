@@ -1,0 +1,35 @@
+{
+  "// purpose": "Interview drill mode — type from zero, no help. Disable in real work.",
+
+  // ---- Inline suggestions / Copilot ----
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "python": false,
+    "markdown": false
+  },
+
+  // ---- IntelliSense / autocomplete popup ----
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.suggest.preview": false,
+  "editor.suggest.showSnippets": false,
+  "editor.wordBasedSuggestions": "off",
+
+  // ---- Python-specific (Pylance / Microsoft Python) ----
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.completeFunctionParens": false,
+  "python.languageServer": "None",
+
+  // ---- Misc helpers that leak hints ----
+  "editor.hover.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.snippetSuggestions": "none"
+}
